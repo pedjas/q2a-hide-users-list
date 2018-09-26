@@ -7,6 +7,8 @@ When plugin is installed and enabled, visotors that are not logged in and user t
 
 More than that, if user tries to access users list or user profile by typing URL of the page it will also be protected.
 
+Works with Question2Answer version 1.8.0. Not tested with earlier versions.
+
 HOW TO USE
 
 Install this plugin by copying it to qa-plugin/qa-hide-users-list directory and enable it using Question2Answer site admin.
