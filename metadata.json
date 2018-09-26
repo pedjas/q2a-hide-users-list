@@ -1,0 +1,11 @@
+{
+	"name": "Hide Users List",
+	"description": "Hides userslist form anonymous (unregistered) users",
+	"version": "0.1",
+	"date": "2018-09-26",
+	"author": "Pedja Supurovic",
+	"author_uri": "http://pedja.supurovic.net",
+	"license": "GPLv2",
+	"min_q2a": "1.8.0",
+	"load_order": "after_db_init"
+}
