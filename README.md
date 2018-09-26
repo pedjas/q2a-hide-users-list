@@ -1,9 +1,11 @@
 # q2a-hide-users-list
-Hides users lit for anonymous visitors
+Question2Answer plugin for hiding users list from anonymous visitors and not confirmed users
 
 Usualy, closed access sites neet to hide list of users for privacy issues. This plugin does just that.
 
-When plugin is installed and enabled, visotors that are not logged in and user that ar enot confirmed wil not se Users menu optin. More than that, if user tries to access Users list by typing URL of the page it will also be protected.
+When plugin is installed and enabled, visotors that are not logged in and user that are not confirmed will not see Users menu option. 
+
+More than that, if user tries to access users list or user profile by typing URL of the page it will also be protected.
 
 HOW TO USE
 
