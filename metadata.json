@@ -1,11 +1,14 @@
 {
 	"name": "Hide Users List",
-	"description": "Hides userslist form anonymous (unregistered) users",
+	"description": "Question2Answer plugin for hiding users list from anonymous visitors and not confirmed users",
+	"uri": "hhttps://github.com/pedjas/q2a-hide-users-list",
 	"version": "0.1",
 	"date": "2018-09-26",
 	"author": "Pedja Supurovic",
 	"author_uri": "http://pedja.supurovic.net",
 	"license": "GPLv2",
 	"min_q2a": "1.8.0",
-	"load_order": "after_db_init"
+	"min_php": "5.3",
+	"load_order": "after_db_init",
+	"update_uri": "https://raw.githubusercontent.com/pedjas/q2a-hide-users-list/master/metadata.json"
 }
