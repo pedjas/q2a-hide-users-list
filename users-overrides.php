@@ -6,7 +6,7 @@ function qa_content_prepare($voting = false, $categoryids = null)
     $qa_content = qa_content_prepare_base($voting, $categoryids);
 
 
-    $confirmed = qa_get_logged_in_level() & QA_USER_LEVEL_APPROVED;
+    $confirmed = qa_get_logged_in_level() >= QA_USER_LEVEL_APPROVED;
 
     if (!$confirmed) {
         unset($qa_content['navigation']['main']['user']);
@@ -20,7 +20,7 @@ function qa_page_routing() {
 
   $l_routing = qa_page_routing_base();
 
-  $confirmed = qa_get_logged_in_level() & QA_USER_LEVEL_APPROVED;
+  $confirmed = qa_get_logged_in_level() >= QA_USER_LEVEL_APPROVED;
 
 //print_r ($l_routing);
 
