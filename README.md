@@ -7,12 +7,24 @@ When plugin is installed and enabled, visotors that are not logged in and user t
 
 More than that, if user tries to access users list or user profile by typing URL of the page it will also be protected.
 
+Usernames are removed from lists of questions, actually replaced with 'hidden.user'.
+
 Works with Question2Answer version 1.8.0. Not tested with earlier versions.
+
 
 HOW TO USE
 
 Install this plugin by copying it to qa-plugin/qa-hide-users-list directory and enable it using Question2Answer site admin.
 
+
 ISSUES
 
 I could not find proper way to obtain directory path for plugin so I had to hardcode that path to load replacement page for Users which is located within this plugin directory. Suggestions how to overome this are welcome.
+
+
+UPDATES
+
+
+v0.3
+
+Removed user names in questions list.
