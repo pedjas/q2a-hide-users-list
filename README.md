@@ -26,6 +26,7 @@ I could not find proper way to obtain directory path for plugin so I had to hard
 AUTHOR
 
 Pedja Supurovic, https://pedja.supurovic.net
+Source: https://github.com/pedjas/q2a-hide-users-list
 
 UPDATES
 
