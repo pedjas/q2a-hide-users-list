@@ -53,3 +53,15 @@ function qa_get_one_user_html($handle, $microdata = false, $favorited = false)	{
 	return $l_output;
 
 }
+
+
+function qa_get_avatar_blob_url($blobId, $size = null, $absolute = false) {
+  $l_confirmed = qac_approved_user();
+
+  if ($l_confirmed) {
+    $l_output = qa_get_avatar_blob_url_base($blobId, $size, $absolute);
+  } else {
+    $l_output = null;
+  }
+	return $l_output;
+}

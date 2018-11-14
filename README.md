@@ -9,7 +9,9 @@ More than that, if user tries to access users list or user profile by typing URL
 
 Usernames are removed from lists of questions, actually replaced with 'hidden.user'.
 
-Works with Question2Answer version 1.8.0. Not tested with earlier versions.
+Avatars are also hidden.
+
+Works with Question2Answer version 1.7.5 and upper. Not tested with earlier versions.
 
 
 HOW TO USE
@@ -23,6 +25,12 @@ I could not find proper way to obtain directory path for plugin so I had to hard
 
 
 UPDATES
+
+v0.4
+
+Confirmed working with Q2A version 1.7.5
+
+Avatars are now also hidden from anonymous visitors.
 
 
 v0.3
