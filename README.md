@@ -23,6 +23,9 @@ ISSUES
 
 I could not find proper way to obtain directory path for plugin so I had to hardcode that path to load replacement page for Users which is located within this plugin directory. Suggestions how to overome this are welcome.
 
+AUTHOR
+
+Pedja Supurovic, https://pedja.supurovic.net
 
 UPDATES
 
